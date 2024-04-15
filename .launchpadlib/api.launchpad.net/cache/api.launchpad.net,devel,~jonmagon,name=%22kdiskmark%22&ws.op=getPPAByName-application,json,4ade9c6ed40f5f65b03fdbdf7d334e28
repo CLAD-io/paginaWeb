@@ -1,0 +1,22 @@
+status: 200
+date: Thu, 11 Apr 2024 00:53:51 GMT
+server: gunicorn
+x-powered-by: Zope (www.zope.org), Python (www.python.org)
+content-security-policy: frame-ancestors 'self';
+content-type: application/json
+strict-transport-security: max-age=15552000
+vary: Accept,Accept-Encoding
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-launchpad-revision: aec24aef7a9042c99ef3e238d8b0ca01df9e1a9f
+x-lazr-notifications: []
+x-xss-protection: 1; mode=block
+x-vcs-revision: aec24aef7a9042c99ef3e238d8b0ca01df9e1a9f
+x-request-id: 11833c92-3cd4-4513-9d4d-2dfeda4d12b5
+content-length: 1443
+-content-encoding: gzip
+content-location: https://api.launchpad.net/devel/~jonmagon?name=%22kdiskmark%22&ws.op=getPPAByName
+-varied-accept: application/json
+-varied-accept-encoding: gzip, deflate
+
+{"self_link": "https://api.launchpad.net/devel/~jonmagon/+archive/ubuntu/kdiskmark", "web_link": "https://launchpad.net/~jonmagon/+archive/ubuntu/kdiskmark", "resource_type_link": "https://api.launchpad.net/devel/#archive", "owner_link": "https://api.launchpad.net/devel/~jonmagon", "name": "kdiskmark", "displayname": "KDiskMark", "reference": "~jonmagon/ubuntu/kdiskmark", "distribution_link": "https://api.launchpad.net/devel/ubuntu", "private": false, "suppress_subscription_notifications": false, "dependencies_collection_link": "https://api.launchpad.net/devel/~jonmagon/+archive/ubuntu/kdiskmark/dependencies", "description": "A simple open-source disk benchmark tool for Linux distros ", "signing_key_fingerprint": "3B3C4A82F16CE6BC90F90007C2B0E8C0D58C0CED", "require_virtualized": true, "build_debug_symbols": false, "publish_debug_symbols": false, "permit_obsolete_series_uploads": false, "authorized_size": 2048, "status": "Active", "external_dependencies": null, "processors_collection_link": "https://api.launchpad.net/devel/~jonmagon/+archive/ubuntu/kdiskmark/processors", "enabled_restricted_processors_collection_link": "https://api.launchpad.net/devel/~jonmagon/+archive/ubuntu/kdiskmark/enabled_restricted_processors", "publishing_method": "Local", "repository_format": "Debian", "publish": true, "relative_build_score": 0, "http_etag": "\"bea44d5f2c3b98f8b10e5c8582bda9c362be15b0-df5d0dc649fc6deaf7cfb18904d835180af60b49\""}
